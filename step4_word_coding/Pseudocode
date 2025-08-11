@@ -1,0 +1,15 @@
+Start
+Check time
+  If matches feeding time -> go to step 3
+  Else loop back to start
+Check food level
+  If low -> Send alert and skip feeding
+  Else -> proceed to step 4
+Dispense food
+  Activate motor
+  Record feeding event
+Wait 10 mins
+Check bowl sensor
+  If unchanged -> send alert
+  Else log “Feeding Successfull”
+Return to start
