@@ -1,0 +1,3 @@
+Pet eats as expected: Motor dispenses food → Bowl sensor detects decrease → Log success
+Pet does not eat: Motor dispenses food → Bowl sensor reading unchanged after 10 mins → Alert staff
+Food bin empty: Container sensor detects low level before feeding → Alert staff → Skip feeding
